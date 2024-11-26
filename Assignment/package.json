@@ -1,0 +1,19 @@
+{
+  "name": "assignment",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "VerifyForm": "cucumber-js -p test_runner --tags @verifyform"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@playwright/test": "^1.49.0",
+    "@types/node": "^22.10.0"
+  },
+  "dependencies": {
+    "@cucumber/cucumber": "^11.1.0"
+  }
+}
